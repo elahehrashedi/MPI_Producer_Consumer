@@ -1,2 +1,3 @@
-# MPI_Producer_Consumer
-Using mutual exclusion lock to implement a producer-consumer algorithm.
+# MPI Producer Consumer Using mutual exclusion lock 
+
+Using mutual exclusion lock to implement a producer-consumer algorithm. Here we have two threads: one producer and one consumer. The producer reads characters one by one from a string stored in a file named “string.txt”, then writes sequentially these characters into a circular queue. Meanwhile, the consumer reads sequentially from the queue and prints them out in the same order. The diagram illustrates the process: upon completion of running the program, “Hello! World.” is printed on the screen. In the program, use #define to specify the size of the queue. For example, #define QUEUE_SIZE 5. 
